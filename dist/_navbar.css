@@ -1,0 +1,53 @@
+header {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+header .logo {
+  width: 140px;
+}
+
+header .navegador {
+  background: rgba(236, 232, 232, 0.404);
+}
+
+header .navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #262626;
+}
+
+.nav-item {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  background: #262626;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #262626;
+  padding: 5px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  color: #fff;
+  border: 2px solid #7f7f7f;
+  border-radius: 0;
+  outline: none;
+}
+
+/*# sourceMappingURL=_navbar.css.map */

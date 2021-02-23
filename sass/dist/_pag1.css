@@ -1,0 +1,36 @@
+.overlay {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  top: 0%;
+}
+
+.overlay h2 {
+  color: black;
+  font-size: 165px;
+  text-transform: uppercase;
+  letter-spacing: 33px;
+  font-weight: 800;
+  line-height: 1;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  z-index: 10;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+}
+
+.overlay h2 span {
+  color: black;
+  display: block;
+  text-align: right;
+  font-size: 22px;
+  letter-spacing: 20px;
+  text-transform: capitalize;
+  padding-right: 20px;
+}
+
+/*# sourceMappingURL=_pag1.css.map */
