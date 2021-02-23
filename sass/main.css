@@ -232,6 +232,7 @@ header .navbar {
           animation-fill-mode: both;
   -webkit-animation-name: fadeInRight;
           animation-name: fadeInRight;
+  padding-left: 100px;
 }
 
 .myslides .p_detail {
@@ -408,25 +409,27 @@ header .navbar {
 
 @media (min-width: 375px) and (max-width: 425px) {
   .slideshow-container {
-    height: 1000px;
+    height: 860px;
   }
   .slideshow-container .myslides {
-    padding-top: 190px;
+    margin-left: -30px;
+    margin-top: -70;
   }
   .slideshow-container .myslides h2 {
-    padding-top: 50px;
+    margin-left: -27px;
     font-size: 100px;
   }
   .slideshow-container .myslides .p_img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 120px;
+    margin-left: 40px;
     padding-top: 100px;
-    width: 250px;
+    width: 90%;
   }
   .slideshow-container .myslides .p_detail {
-    padding-top: 450px;
+    padding-top: 403px;
+    padding-left: 170px;
   }
 }
 
