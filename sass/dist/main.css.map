@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["main.scss"],"sourcesContent":["@import './pag1';\n@import'./conf';\n@import'./navbar';\n@import'./slider';\n@import './services';\n@import'./carousel';\n@import'./testimonios';\n@import './team';"],"file":"main.css"}
+{"version":3,"names":[],"mappings":"","sources":["main.scss"],"sourcesContent":["@import './pag1';\n@import'./conf';\n@import'./navbar';\n@import'./slider';\n@import './services';\n@import'./carousel';\n@import'./testimonios';\n@import './team';\n@import'./contac';"],"file":"main.css"}
