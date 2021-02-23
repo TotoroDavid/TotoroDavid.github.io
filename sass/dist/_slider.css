@@ -185,7 +185,7 @@
   .slideshow-container .myslides .p_img {
     display: flex;
     margin-left: 40px;
-    padding-top: 100px;
+    padding: 0px;
     width: 90%;
   }
   .slideshow-container .myslides .p_detail {
