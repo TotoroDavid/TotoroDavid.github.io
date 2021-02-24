@@ -495,6 +495,24 @@ header .navbar {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .slideshow-container .myslides h2 {
+    margin-left: 10px;
+  }
+  .slideshow-container .myslides .p_detail {
+    padding-top: 75px;
+    padding-left: 133px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-right: -99px;
+  }
+  .slideshow-container .myslides .p_img {
+    margin-top: 115px;
+    margin-left: 5px;
+    width: 60%;
+  }
+}
+
 .body_contedor {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -990,7 +1008,7 @@ body {
 h1 {
   font-size: 40px;
   margin-top: 20px;
-  color: #f65750;
+  color: black;
   text-align: center;
 }
 

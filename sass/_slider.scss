@@ -214,3 +214,25 @@
         }
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .slideshow-container {
+        .myslides {
+            & h2 {
+                margin-left: 10px;
+            }
+            & .p_detail {
+                padding-top: 75px;
+                padding-left: 133px;
+                padding-bottom: 0px;
+                padding-right: 0px;
+                margin-right: -99px;
+            }
+            & .p_img {
+                margin-top: 115px;
+                margin-left: 5px;
+                width: 60%;
+            }
+        }
+    }
+}
