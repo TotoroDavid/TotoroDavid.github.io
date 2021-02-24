@@ -85,18 +85,32 @@
         background: #000;
         line-height: 75px;
     }
-    /*responsive css*/
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .md-mb-30 {
-            margin-bottom: 30px;
-        }
+}
+
+
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
     }
-    @media only screen and (min-width: 767px) {
-        .sm-mb-30 {
-            margin-bottom: 30px;
-        }
-        .footer-top {
-            padding: 50px 0;
-        }
+}
+
+@media only screen and (min-width: 767px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        padding: 50px 0;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .footer .footer-top {
+        height: 770px;
+        padding: 47px;
+    }
+    .footer_1 {
+        padding-bottom: 20px;
     }
 }

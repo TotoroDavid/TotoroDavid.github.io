@@ -197,6 +197,7 @@ header .navbar {
     transition: 0.5s;
   }
   .nav-item {
+    font-weight: 900;
     padding-top: 31px;
     padding-left: 78px;
     font-size: 20px;
@@ -1265,10 +1266,6 @@ h1 {
   }
 }
 
-.footer {
-  /*responsive css*/
-}
-
 .footer p {
   color: #999;
   line-height: 25px;
@@ -1372,18 +1369,29 @@ h1 {
   line-height: 75px;
 }
 
+/*responsive css*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .footer .md-mb-30 {
+  .md-mb-30 {
     margin-bottom: 30px;
   }
 }
 
 @media only screen and (min-width: 767px) {
-  .footer .sm-mb-30 {
+  .sm-mb-30 {
     margin-bottom: 30px;
   }
-  .footer .footer-top {
+  .footer-top {
     padding: 50px 0;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .footer .footer-top {
+    height: 770px;
+    padding: 47px;
+  }
+  .footer_1 {
+    padding-bottom: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */
