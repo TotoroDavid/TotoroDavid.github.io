@@ -409,6 +409,12 @@ header .navbar {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .slideshow-container height .myslides .p_img {
+    width: 70%;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 425px) {
   .slideshow-container {
     height: 860px;
