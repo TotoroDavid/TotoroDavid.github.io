@@ -56,7 +56,7 @@
 
 .myslides .p_detail {
   padding-left: 0px;
-  margin-right: -62px;
+  margin-right: -97px;
   width: 350px;
   position: absolute;
   top: 180px;
@@ -178,7 +178,7 @@
 
 @media only screen and (min-width: 1440px) {
   .slideshow-container .myslides h2 {
-    margin-left: 150px;
+    margin-left: 110px;
   }
   .slideshow-container .myslides .p_detail {
     padding-top: 75px;
@@ -186,6 +186,10 @@
     padding-bottom: 0px;
     padding-right: 0px;
     margin-right: 36px;
+  }
+  .slideshow-container .myslides .p_img {
+    margin-top: 75px;
+    margin-left: 55px;
   }
 }
 
