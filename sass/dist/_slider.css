@@ -200,9 +200,10 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .slideshow-container .myslides h2 {
     margin-left: 10px;
+    font-size: 120px;
   }
   .slideshow-container .myslides .p_detail {
     padding-top: 75px;

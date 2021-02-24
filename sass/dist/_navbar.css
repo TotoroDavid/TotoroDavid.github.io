@@ -125,4 +125,38 @@ header .navbar {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  header .navbar-nav {
+    padding-left: 29px;
+    margin-left: 15px;
+  }
+  .navbar-nav {
+    height: 638px;
+    background-image: linear-gradient(120deg, #fbfbfb, coral);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+  }
+  .nav-item {
+    font-weight: 900;
+    padding-top: 31px;
+    padding-left: 78px;
+    font-size: 20px;
+  }
+  .navbar-light .navbar-nav .nav-item .nav-link {
+    padding-top: 50px;
+  }
+  .navbar-light .navbar-nav .nav-item .nav-link.inicio {
+    padding-left: 30px;
+  }
+  .navbar-light .navbar-nav .nav-item .nav-link.Nosotros {
+    padding-left: 18px;
+  }
+  .navbar-light .navbar-nav .nav-item .nav-link.contacto {
+    padding-left: 18px;
+  }
+}
+
 /*# sourceMappingURL=_navbar.css.map */
