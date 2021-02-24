@@ -26,6 +26,7 @@
         animation-duration: 1.2s;
         animation-fill-mode: both;
         animation-name: fadeInLeft;
+        margin-left: 69px;
         & span {
             display: block;
             text-align: right;
@@ -46,9 +47,13 @@
         animation-name: fadeInRight;
         //
         padding-left: 100px;
+        &.img_1 {
+            width: 60%;
+        }
     }
     & .p_detail {
-        padding-left: 150px;
+        padding-left: 0px;
+        margin-right: -62px;
         width: 350px;
         position: absolute;
         top: 180px;
@@ -163,14 +168,18 @@
 }
 
 //mediaquery
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     .slideshow-container {
-        height .myslides {
-            & .p_img {
-                // display: flex;
-                // margin-left: 40px;
-                // padding: 0px;
-                width: 70%;
+        .myslides {
+            & h2 {
+                margin-left: 150px;
+            }
+            & .p_detail {
+                padding-top: 75px;
+                padding-left: 0px;
+                padding-bottom: 0px;
+                padding-right: 0px;
+                margin-right: 36px;
             }
         }
     }
