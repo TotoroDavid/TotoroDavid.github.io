@@ -180,3 +180,12 @@
         display: none;
     }
 }
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .home .slide.active .caption h1 {
+        position: relative;
+        padding: 0;
+        margin-left: -70px;
+        font-size: 90px;
+    }
+}
