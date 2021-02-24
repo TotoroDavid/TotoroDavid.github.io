@@ -427,8 +427,9 @@ header .navbar {
     margin-right: 36px;
   }
   .slideshow-container .myslides .p_img {
-    margin-top: 75px;
-    margin-left: 55px;
+    margin-top: 115px;
+    margin-left: 5px;
+    width: 66%;
   }
 }
 
