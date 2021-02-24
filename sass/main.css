@@ -279,8 +279,8 @@ header .navbar {
 }
 
 .myslides .p_detail {
-  padding-left: 0px;
-  margin-right: -97px;
+  padding-left: 122px;
+  margin-right: 0px;
   width: 350px;
   position: absolute;
   top: 180px;
@@ -451,24 +451,6 @@ header .navbar {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-@media only screen and (min-width: 1440px) {
-  .slideshow-container .myslides h2 {
-    margin-left: 110px;
-  }
-  .slideshow-container .myslides .p_detail {
-    padding-top: 75px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    margin-right: 36px;
-  }
-  .slideshow-container .myslides .p_img {
-    margin-top: 115px;
-    margin-left: 5px;
-    width: 66%;
-  }
-}
-
 @media (min-width: 375px) and (max-width: 425px) {
   .slideshow-container {
     height: 860px;
@@ -495,7 +477,7 @@ header .navbar {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .slideshow-container .myslides h2 {
     margin-left: 10px;
   }
