@@ -14,7 +14,7 @@
     // position: relative;
     padding-top: 190px;
     & h2 {
-        font-size: 165px;
+        font-size: 200px;
         text-transform: uppercase;
         letter-spacing: 33px;
         font-weight: 800;
@@ -52,7 +52,7 @@
         }
     }
     & .p_detail {
-        padding-left: 122px;
+        padding-left: 73px;
         margin-right: 0px;
         width: 350px;
         position: absolute;
@@ -168,7 +168,7 @@
 }
 
 //mediaquery
-// @media only screen and (min-width: 1440px) {
+// @media only screen and (max-width: 1440px) {
 //     .slideshow-container {
 //         .myslides {
 //             & h2 {
@@ -221,7 +221,7 @@
         .myslides {
             & h2 {
                 margin-left: 40px;
-                font-size: 170px;
+                font-size: 200px;
                 margin-top: -47px;
             }
             & .p_detail {

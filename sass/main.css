@@ -268,7 +268,7 @@ header .navbar {
 }
 
 .myslides h2 {
-  font-size: 165px;
+  font-size: 200px;
   text-transform: uppercase;
   letter-spacing: 33px;
   font-weight: 800;
@@ -315,7 +315,7 @@ header .navbar {
 }
 
 .myslides .p_detail {
-  padding-left: 122px;
+  padding-left: 73px;
   margin-right: 0px;
   width: 350px;
   position: absolute;
@@ -518,7 +518,7 @@ header .navbar {
 @media only screen and (min-width: 768px) {
   .slideshow-container .myslides h2 {
     margin-left: 40px;
-    font-size: 170px;
+    font-size: 200px;
     margin-top: -47px;
   }
   .slideshow-container .myslides .p_detail {
