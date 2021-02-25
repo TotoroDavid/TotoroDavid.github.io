@@ -216,7 +216,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 767px) and (max-width: 1440px) {
     .slideshow-container {
         .myslides {
             & h2 {
@@ -233,7 +233,7 @@
             }
             & .p_img {
                 margin-top: 115px;
-                margin-left: 80px;
+                margin-left: -95px;
                 width: 80%;
             }
         }
