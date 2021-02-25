@@ -517,8 +517,9 @@ header .navbar {
 
 @media only screen and (min-width: 768px) {
   .slideshow-container .myslides h2 {
-    margin-left: 10px;
-    font-size: 120px;
+    margin-left: 40px;
+    font-size: 170px;
+    margin-top: -47px;
   }
   .slideshow-container .myslides .p_detail {
     padding-top: 75px;
@@ -529,7 +530,7 @@ header .navbar {
   }
   .slideshow-container .myslides .p_img {
     margin-top: 115px;
-    margin-left: 5px;
+    margin-left: 65px;
     width: 60%;
   }
 }
